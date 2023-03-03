@@ -82,16 +82,15 @@ UICorner_4.CornerRadius = UDim.new(0, 18)
 UICorner_4.Parent = TextButton
 
 Image.Name = "Image"
-Image.Parent = Frame
+Image.Parent = ScreenGui
 Image.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-Image.Position = UDim2.new(-0.213270068, 0, -4.01685381, 0)
-Image.Size = UDim2.new(4.34834146, 0, 5.51685381, 0)
+Image.Size = UDim2.new(1, 0, 1, 0)
 Image.Visible = false
 Image.Image = "http://www.roblox.com/asset/?id=12671955907"
 
 -- Scripts:
 
-local function AEYS_fake_script() -- Frame.LocalScript 
+local function AOHZQQ_fake_script() -- Frame.LocalScript 
 	local script = Instance.new('LocalScript', Frame)
 
 	for i = 1, 30 do
@@ -113,8 +112,8 @@ local function AEYS_fake_script() -- Frame.LocalScript
 	script.Parent.Frame.Visible = true
 	script.Parent.TextButton.Visible = true
 end
-coroutine.wrap(AEYS_fake_script)()
-local function LYBEP_fake_script() -- TextButton.LocalScript 
+coroutine.wrap(AOHZQQ_fake_script)()
+local function VLHKXY_fake_script() -- TextButton.LocalScript 
 	local script = Instance.new('LocalScript', TextButton)
 
 	script.Parent.MouseButton1Click:Connect(function()
@@ -125,7 +124,7 @@ local function LYBEP_fake_script() -- TextButton.LocalScript
 		music.RollOffMaxDistance = 999999
 		music.Looped = true
 		music:Play()
-		script.Parent.Parent.Image.Visible = true
+		script.Parent.Parent.Parent.Image.Visible = true
 		wait(3)
 		script.Parent.Parent.Image.Image = "http://www.roblox.com/asset/?id=12672004841"
 		wait(5)
@@ -140,4 +139,4 @@ local function LYBEP_fake_script() -- TextButton.LocalScript
 		game.Players.LocalPlayer.Character.Humanoid:Kick("HAHAHAHAHAHAHAHAHHAHAHHAHAHAHAH")
 	end)
 end
-coroutine.wrap(LYBEP_fake_script)()
+coroutine.wrap(VLHKXY_fake_script)()
