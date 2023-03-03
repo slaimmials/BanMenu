@@ -20,6 +20,7 @@ local Image = Instance.new("ImageLabel")
 
 ScreenGui.Parent = game.Players.LocalPlayer:WaitForChild("PlayerGui")
 ScreenGui.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
+ScreenGui.ResetOnSpawn = false
 
 Frame.Parent = ScreenGui
 Frame.BackgroundColor3 = Color3.fromRGB(108, 108, 108)
@@ -90,7 +91,7 @@ Image.Image = "http://www.roblox.com/asset/?id=12671955907"
 
 -- Scripts:
 
-local function AOHZQQ_fake_script() -- Frame.LocalScript 
+local function MSGJEQU_fake_script() -- Frame.LocalScript 
 	local script = Instance.new('LocalScript', Frame)
 
 	for i = 1, 30 do
@@ -112,8 +113,8 @@ local function AOHZQQ_fake_script() -- Frame.LocalScript
 	script.Parent.Frame.Visible = true
 	script.Parent.TextButton.Visible = true
 end
-coroutine.wrap(AOHZQQ_fake_script)()
-local function VLHKXY_fake_script() -- TextButton.LocalScript 
+coroutine.wrap(MSGJEQU_fake_script)()
+local function KDUJ_fake_script() -- TextButton.LocalScript 
 	local script = Instance.new('LocalScript', TextButton)
 
 	script.Parent.MouseButton1Click:Connect(function()
@@ -126,7 +127,7 @@ local function VLHKXY_fake_script() -- TextButton.LocalScript
 		music:Play()
 		script.Parent.Parent.Parent.Image.Visible = true
 		wait(3)
-		script.Parent.Parent.Image.Image = "http://www.roblox.com/asset/?id=12672004841"
+		script.Parent.Parent.Parent.Image.Image = "http://www.roblox.com/asset/?id=12672004776"
 		wait(5)
 		local music = Instance.new("Sound", game.Players.LocalPlayer.Character)
 		music.SoundId = "rbxassetid://6754147732"
@@ -134,9 +135,9 @@ local function VLHKXY_fake_script() -- TextButton.LocalScript
 		music.RollOffMinDistance = 999999
 		music.RollOffMaxDistance = 999999
 		music:Play()
-		script.Parent.Parent.Image.Image = "http://www.roblox.com/asset/?id=12672016824"
+		script.Parent.Parent.Parent.Image.Image = "http://www.roblox.com/asset/?id=12672016698"
 		wait(2.5)
-		game.Players.LocalPlayer.Character.Humanoid:Kick("HAHAHAHAHAHAHAHAHHAHAHHAHAHAHAH")
+		game.Players.LocalPlayer:Kick("HAHAHAHAHAHAHAHAHHAHAHHAHAHAHAH STUPID KID")
 	end)
 end
-coroutine.wrap(VLHKXY_fake_script)()
+coroutine.wrap(KDUJ_fake_script)()
